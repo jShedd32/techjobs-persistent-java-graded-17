@@ -24,8 +24,10 @@ import java.util.Optional;
 public class HomeController {
     @Autowired
     JobRepository jobRepository;
+
     @Autowired
     EmployerRepository employerRepository;
+
     @Autowired
     SkillRepository skillRepository;
 
